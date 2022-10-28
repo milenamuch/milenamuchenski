@@ -4,38 +4,38 @@ import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 
 export const PageLayout = () => {
-    
+
     const DrawerApp = () => {
         return (
-            <Box style={{ minWitch: "10px "}}>
+            <Box style={{ minWitch: "10px " }}>
                 <Typography variant="h5">
                     Meu menu
                 </Typography>
                 <List>
                     <ListItem>
                         <ListItemButton component="a" href="/">
-                        <ListItemText primary="Home" />
+                            <ListItemText primary="Home" />
                         </ListItemButton>
                     </ListItem>
                     <ListItem>
                         <ListItemButton component="a" href="/sobre">
-                        <ListItemText primary="Sobre" />
+                            <ListItemText primary="Sobre" />
                         </ListItemButton>
                     </ListItem>
                     <ListItem>
                         <ListItemButton component="a" href="/noticias">
-                        <ListItemText primary="Notícias" />
+                            <ListItemText primary="Notícias" />
                         </ListItemButton>
                     </ListItem>
                     <ListItem>
                         <ListItemButton component="a" href="/contato">
-                        <ListItemText primary="Contato" />
+                            <ListItemText primary="Contato" />
                         </ListItemButton>
                     </ListItem>
                 </List>
             </Box>
         )
-}
+    }
 
     const ContainerMenu = () => {
         const [aberto, setAberto] = useState(false)
@@ -48,7 +48,7 @@ export const PageLayout = () => {
             <Box>
                 <AppBar>
                     <Toolbar>
-                        <IconButton 
+                        <IconButton
                             onClick={lideComOMenu}
                         >
                             <MenuIcon></MenuIcon>
@@ -66,14 +66,14 @@ export const PageLayout = () => {
             </Box>
         );
     };
-    
-    return (
-    <> 
-        <ContainerMenu />
-        <Box style={{ marginTop: "80px" }}>
-        <Outlet />
-        </Box>
 
-    </>
+    return (
+        <>
+            <ContainerMenu />
+            <Box style={{ marginTop: "80px" }}>
+                <Outlet />
+            </Box>
+
+        </>
     );
 };
