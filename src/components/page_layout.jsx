@@ -1,7 +1,7 @@
 import MenuIcon from "@mui/icons-material/Menu";
 import { AppBar, Box, Drawer, IconButton, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Toolbar, Typography } from "@mui/material";
 import { useState } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useRouteError } from "react-router-dom";
 
 export const PageLayout = () => {
 
@@ -9,7 +9,6 @@ export const PageLayout = () => {
         return (
             <Box style={{ minWitch: "10px " }}>
                 <Typography variant="h5">
-                    Meu menu
                 </Typography>
                 <List>
                     <ListItem>
@@ -20,6 +19,11 @@ export const PageLayout = () => {
                     <ListItem>
                         <ListItemButton component="a" href="/sobre">
                             <ListItemText primary="Sobre" />
+                        </ListItemButton>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemButton component="a" href="/albuns">
+                            <ListItemText primary="Álbuns" />
                         </ListItemButton>
                     </ListItem>
                     <ListItem>
