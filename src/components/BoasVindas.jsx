@@ -10,27 +10,33 @@ const BoasVindas = () => {
         />
       </div>
       <h1>Seja bem vindo</h1>
-      <p>
-        {" "}
-        Queen foi uma banda britânica de rock, fundada em 1970 e ativa, sob sua
-        formação clássica, até 1991. O grupo, formado por Brian May (guitarra e
-        vocais), Freddie Mercury (vocais e piano), John Deacon (baixo) e Roger
-        Taylor (bateria e vocais) é frequentemente citado como um dos expoentes
-        do seu estilo, também sendo um dos recordistas de vendas de discos a
-        nível mundial. A música da banda também é conhecida por ser altamente
-        eclética, variando entre várias vertentes do rock. Originalmente, a
-        banda surgiu a partir do trio Smile, formado por Brian May, Roger Taylor
-        e o baixista Tim Staffell. Com o fim do conjunto, Freddie Mercury e John
-        Deacon, juntamente com May e Roger, estabeleceram a formação de um novo
-        grupo em meados de 1970. Os seus dois primeiros álbuns alcançaram pouco
-        sucesso, até que ganhou popularidade internacional por meio de Sheer
-        Heart Attack (1974) e, principalmente, por A Night at the Opera (1975),
-        cujos singles "Bohemian Rhapsody" e "You're My Best Friend" alcançaram
-        bons desempenhos. Mais tarde, a popularidade do quarteto estendeu-se com
-        News of the World, em 1977, devido aos hits "We Will Rock You" e "We Are
-        the Champions", bem como com "Crazy Little Thing Called Love" e "Another
-        One Bites the Dust", de The Game, lançado em 1980.
-      </p>
+      <h2>Veja 10 curiosidades sobre a Banda Queen</h2>
+      <ol>
+        <li>
+          A banda surgiu em 1968, quando os amigos Brian May (guitarrista) e Tim
+          Staffel (cantor e baixista) decidiram se juntar e colocaram um anúncio
+          no Imperial College, em Londres, procurando um baterista - que foi
+          quando Roger Taylor apareceu.
+        </li>
+        <li>
+          Antes de ganhar o famoso nome Queen, a banda se chamava Smile. O nome
+          original foi dado apenas em 1970, quando Freddie Mercury substituiu
+          Tim Staffel como vocalista e sugeriu a mudança.
+        </li>
+        <li>
+          O brasão do Queen foi criado por Freddie Mercury, que usou símbolos
+          dos signos integrantes da banda: dois leões, representando Roger
+          Taylor e John Deacon, o caranguejo de câncer, de Brian May, e suas
+          fadas representando o signo de virgem, de Freddie.
+        </li>
+        <li>
+          Além de artistas, os integrantes da banda possuíam outras formações
+          acadêmicas: Freddie Mercury era formado em design gráfico; Roger
+          Taylor, em ciências biológicas; John Deacon era engenheiro eletrônico
+          (e construía equipamentos para a banda); enquanto Brian May é PhD em
+          astrofísica, chegando até a colaborar como pesquisador da NASA!
+        </li>
+      </ol>
     </div>
   );
 };
