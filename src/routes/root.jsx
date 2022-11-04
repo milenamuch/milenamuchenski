@@ -14,8 +14,6 @@ import BoasVindas from "../components/BoasVindas";
 import Contato from "../components/Contato";
 import { PageLayout } from "../components/PageLayout";
 
-const HomeScreen = () => <div>Oi Home</div>;
-
 const route = createBrowserRouter(
   createRoutesFromElements(
     //<Routes>

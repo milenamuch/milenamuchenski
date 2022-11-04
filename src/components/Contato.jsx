@@ -23,7 +23,6 @@ export default function Contato() {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Open modal</Button>
       <Modal
         keepMounted
         open={open}
