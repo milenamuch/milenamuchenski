@@ -1,17 +1,17 @@
+import { Box, Typography } from "@mui/material";
+
 const BoasVindas = () => {
   return (
-    <div className="texto-centralizado">
-      <div className="centralizado">
+    <Box className="texto-centralizado">
+      <Box className="centralizado">
         <img
-          src="https://rollingstone.uol.com.br/media/uploads/queen_-_logo__reproducao.jpg"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Queen_logo.svg/588px-Queen_logo.svg.png"
           alt="Queen"
-          width={400}
-          magin-={50}
+          className="img-fluid"
         />
-      </div>
+      </Box>
       <h1>Seja bem vindo</h1>
-      <p>
-        {" "}
+      <Typography>
         Queen foi uma banda britânica de rock, fundada em 1970 e ativa, sob sua
         formação clássica, até 1991. O grupo, formado por Brian May (guitarra e
         vocais), Freddie Mercury (vocais e piano), John Deacon (baixo) e Roger
@@ -30,8 +30,8 @@ const BoasVindas = () => {
         News of the World, em 1977, devido aos hits "We Will Rock You" e "We Are
         the Champions", bem como com "Crazy Little Thing Called Love" e "Another
         One Bites the Dust", de The Game, lançado em 1980.
-      </p>
-    </div>
+      </Typography>
+    </Box>
   );
 };
 

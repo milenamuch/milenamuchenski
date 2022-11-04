@@ -19,30 +19,29 @@ export const PageLayout = () => {
   const DrawerApp = () => {
     return (
       <Box style={{ minWitch: "10px " }}>
-        <Typography variant="h5"></Typography>
         <List>
           <ListItem>
-            <ListItemButton component="a" href="/">
+            <ListItemButton to="/" LinkComponent={Link}>
               <ListItemText primary="Home" />
             </ListItemButton>
           </ListItem>
           <ListItem>
-            <ListItemButton component="a" href="/sobre">
+            <ListItemButton to="/sobre" LinkComponent={Link}>
               <ListItemText primary="Sobre" />
             </ListItemButton>
           </ListItem>
           <ListItem>
-            <ListItemButton component="a" href="/albuns">
+            <ListItemButton to="/albuns" LinkComponent={Link}>
               <ListItemText primary="Álbuns" />
             </ListItemButton>
           </ListItem>
           <ListItem>
-            <ListItemButton component="a" href="/noticias">
+            <ListItemButton to="/noticias" LinkComponent={Link}>
               <ListItemText primary="Notícias" />
             </ListItemButton>
           </ListItem>
           <ListItem>
-            <ListItemButton component="a" href="/contato">
+            <ListItemButton to="/contato" LinkComponent={Link}>
               <ListItemText primary="Contato" />
             </ListItemButton>
           </ListItem>
@@ -79,7 +78,7 @@ export const PageLayout = () => {
   return (
     <>
       <ContainerMenu />
-      <Box style={{ marginTop: "80px" }}>
+      <Box style={{ marginTop: "80px" }} className="content" >
         <Outlet />
       </Box>
     </>
