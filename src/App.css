@@ -1,10 +1,23 @@
-.App {
+
+.centralizado {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.texto-centralizado {
+  text-align: center;
+  text-align: justify;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.texto-centralizado h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.texto-centralizado h2 {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,11 +1,15 @@
-
-const Sobre = () => {
+const BoasVindas = () => {
   return (
     <div className="texto-centralizado">
       <div className="centralizado">
-        <iframe width="500" height="350" src="https://www.youtube.com/embed/f4Mc-NYPHaQ" title="Queen - I Want To Break Free (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <img
+          src="https://rollingstone.uol.com.br/media/uploads/queen_-_logo__reproducao.jpg"
+          alt="Queen"
+          width={400}
+          magin-={50}
+        />
       </div>
-      <h1>Um pouco sobre a banda</h1>
+      <h1>Seja bem vindo</h1>
       <p>
         {" "}
         Queen foi uma banda britânica de rock, fundada em 1970 e ativa, sob sua
@@ -31,4 +35,4 @@ const Sobre = () => {
   );
 };
 
-export default Sobre;
+export default BoasVindas;
